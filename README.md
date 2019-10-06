@@ -9,6 +9,7 @@ For input, repository has both json and avro format data for customer table (sam
 Code also has hardcoded value for bigtable instance "mybigtable".  Change in the code if you choose different name.
 
 To run the code, clone the repo and execute command below(for bigtable).
-
-python -m beam_gcs_bt --avro_input "your bucket location for avro input file"
---json_input "your bucket location for json input file"  --project "your project id"
+```
+python -m beam_gcs_bt --avro_input <your bucket location for avro input file>
+--json_input <your bucket location for json input file>  --project <your project id>
+```

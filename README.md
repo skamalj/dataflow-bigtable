@@ -10,5 +10,5 @@ Code also has hardcoded value for bigtable instance "mybigtable".  Change in the
 
 To run the code, clone the repo and execute command below(for bigtable).
 
-python -m beam_gcs_bt --avro_input <your bucket location for avro input file> 
---json_input <your bucket location for json input file>  --project <your project id>
+python -m beam_gcs_bt --avro_input "your bucket location for avro input file"
+--json_input "your bucket location for json input file"  --project "your project id"
